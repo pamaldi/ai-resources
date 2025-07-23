@@ -1,4 +1,4 @@
-# AI reources
+# AI resources
 
 ## Workshops
 ### LLM
