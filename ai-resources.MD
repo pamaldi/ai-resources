@@ -25,4 +25,11 @@
 
 ## Formazione
 - [ICNF](https://training.incf.org/)
+
+## Blog
+- https://simonwillison.net/
+
+## Patterns
+- [ReAct](https://react-lm.github.io/)
+- [AlphaCodium](https://arxiv.org/pdf/2401.08500)
     
