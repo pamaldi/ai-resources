@@ -36,4 +36,11 @@
 ## Agents
 ### Surveys
 - https://arxiv.org/pdf/2308.11432
+
+## Prompts
+### Papers
+-https://arxiv.org/pdf/2406.06608#page=33.08
+
+## Reading lists
+- https://www.latent.space/p/2025-papers
     
