@@ -36,6 +36,7 @@
 ## Agents
 ### Surveys
 - https://arxiv.org/pdf/2308.11432
+- [paper for text to sql agent](https://drive.google.com/file/d/1VM-D4MWAUJ_Kovq9acN9GNLLp2LMN_YU/view)
 
 ## Prompts
 ### Papers
@@ -43,4 +44,10 @@
 
 ## Reading lists
 - https://www.latent.space/p/2025-papers
+
+## XAI
+### People
+- [Christopher Olah](https://colah.github.io/about.html)
+### Sources
+- [Anthropic.](https://www.anthropic.com/research#interpretability)
     
