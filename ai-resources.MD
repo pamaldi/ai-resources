@@ -25,6 +25,7 @@
 
 ## Formazione
 - [ICNF](https://training.incf.org/)
+- [Deep Dive into Large Language Models](https://princeton-cos597r.github.io/)
 
 ## Blog
 - https://simonwillison.net/
@@ -50,4 +51,11 @@
 - [Christopher Olah](https://colah.github.io/about.html)
 ### Sources
 - [Anthropic.](https://www.anthropic.com/research#interpretability)
+
+## Books
+-https://www.google.it/books/edition/Large_Language_Models_A_Deep_Dive/kDobEQAAQBAJ?hl=en&gbpv=1
+
+## To read
+- [Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens](https://arxiv.org/pdf/2508.01191)
+- [Tabular Data Understanding with LLMs: A Survey of Recent Advances and Challenges](https://arxiv.org/pdf/2508.00217)
     
