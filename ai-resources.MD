@@ -26,6 +26,7 @@
 ## Formazione
 - [ICNF](https://training.incf.org/)
 - [Deep Dive into Large Language Models](https://princeton-cos597r.github.io/)
+- [WIEN](https://informatics.tuwien.ac.at/orgs/e192-03#courses)
 
 ## Blog
 - https://simonwillison.net/
@@ -58,4 +59,8 @@
 ## To read
 - [Is Chain-of-Thought Reasoning of LLMs a Mirage? A Data Distribution Lens](https://arxiv.org/pdf/2508.01191)
 - [Tabular Data Understanding with LLMs: A Survey of Recent Advances and Challenges](https://arxiv.org/pdf/2508.00217)
-    
+
+
+## KR
+- https://www.cs.nmsu.edu/~tson/tutorials/asp-tutorial.pdf
+- 
