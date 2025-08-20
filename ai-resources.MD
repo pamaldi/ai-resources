@@ -63,4 +63,14 @@
 
 ## KR
 - https://www.cs.nmsu.edu/~tson/tutorials/asp-tutorial.pdf
-- 
+
+
+## Corsi univ
+- https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2026/knowledge-representation-and-reasoning-1
+- polimi https://onlineservices.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do
+
+## Conferences
+- https://iclp25.demacs.unical.it/program/program
+
+## Notes
+- [Notes from stanford courses](https://stanford.edu/~shervine/teaching/cs-221/) 
