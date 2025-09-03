@@ -74,3 +74,6 @@
 
 ## Notes
 - [Notes from stanford courses](https://stanford.edu/~shervine/teaching/cs-221/) 
+
+## RL
+- [Alberta.](http://rlai.ualberta.ca/)
