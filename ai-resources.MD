@@ -79,3 +79,21 @@
 
 ## RL
 - [Alberta.](http://rlai.ualberta.ca/)
+
+## Blog
+Here's a markdown list of AI/ML resources with minimal descriptions:
+
+### AI/ML Authors and Resources
+
+- **[Andrej Karpathy](https://lnkd.in/g6ZgzM7R)** - Neural networks and LLMs explained from first principles
+- **[Sebastian Raschka, PhD](https://lnkd.in/ghtRqxvy)** - LLM training and fine-tuning with code examples
+- **[Interconnects by Nathan Lambert](https://lnkd.in/g_vAQQTb)** - AI alignment and open-source model news
+- **[Lil'Log by Lilian Weng](https://lnkd.in/g7Pgwsi9)** - AI safety and alignment insights from ex-OpenAI VP
+- **[Chip Huyen](https://lnkd.in/gy2HHDgD)** - MLOps and production ML systems design
+- **[Eugene Yan](https://lnkd.in/gNz_wn_B)** - Applied ML and recommender systems at scale
+- **[Philipp Schmid](https://lnkd.in/grVwHUMk)** - LLM deployment tutorials on AWS
+- **[Jason Liu](https://lnkd.in/gZRYBGYp)** - LLM consulting insights and open-source tools
+- **[Hamel H.](https://lnkd.in/g34R2tKC)** - MLOps workflows and fine-tuning strategies
+- **[Berkeley AI Research Blog](https://lnkd.in/gtaqkPTK)** - Academic breakthroughs in CV, NLP, and robotics
+- **[Hugging Face](https://lnkd.in/g5fJTkRT)** - Open-source AI updates and tutorials
+- **[Google DeepMind](https://lnkd.in/gfwDCfrF)** - Premier AI research division updates
