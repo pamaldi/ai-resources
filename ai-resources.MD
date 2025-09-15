@@ -9,6 +9,8 @@
 ### LLM
 - [Neurosymbolic Reasoning for Large Language Models ](https://web.cs.ucla.edu/~guyvdb/slides/NesySchool24.pdf)
 - [Symbolic Reasoning for Large Language Models](https://web.cs.ucla.edu/~guyvdb/slides/LLMCP24.pdf)
+- [ICLR workshop for LLM Reasoning](https://workshop-llm-reasoning-planning.github.io/)
+- [Corso Self Improving agents Stanford ](https://cs329a.stanford.edu/)
 
 ## In-context Learning
 ### Papers
@@ -76,6 +78,7 @@
 
 ## Notes
 - [Notes from stanford courses](https://stanford.edu/~shervine/teaching/cs-221/) 
+- [Yan Le Cun slides](https://drive.google.com/file/d/1oeaO03YRpxkTjKamfYrksEm-MCHk4JbS/view)
 
 ## RL
 - [Alberta.](http://rlai.ualberta.ca/)
