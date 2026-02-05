@@ -71,7 +71,9 @@
 - https://www.unimi.it/it/corsi/insegnamenti-dei-corsi-di-laurea/2026/knowledge-representation-and-reasoning-1
 - polimi https://onlineservices.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do
 - https://cmu-llms.org/schedule/
-- [Raccolta corsi ](https://csdiy.wiki/en/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-868/)
+- [Raccolta corsi ](https://csdiy.wiki/en/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-868/
+- https://princeton-nlp.github.io/cos484/
+- https://cmu-l3.github.io/anlp-spring2025/#schedule
 
 ## Conferences
 - https://iclp25.demacs.unical.it/program/program
