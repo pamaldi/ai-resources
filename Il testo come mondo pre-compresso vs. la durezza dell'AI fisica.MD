@@ -109,3 +109,5 @@
 4. **Libri** in parallelo per lo strato profondo (Henrich su tutti: nessun paper dà quella prospettiva).
 
 Test finale di possesso dell'argomento: saperlo sostenere in entrambe le direzioni — sia "il testo è un trucco irripetibile" sia "le scaling law robotiche chiuderanno il gap".
+
+Libro https://www.amazon.it/Introduction-Kolmogorov-Complexity-Its-Applications/dp/0387339981
