@@ -29,6 +29,90 @@ Non sono compatibili. Un enattivista risponderebbe che il teorema di Rice è fuo
 
 ---
 
+## 0-bis. Le definizioni
+
+Prima delle letture, i termini. Le tre coppie ricorrono in tutta la bibliografia con nomi diversi ma sono strettamente imparentate.
+
+### Estensione e intensione
+
+**Estensione** di un termine: l'**insieme delle cose** a cui si applica.
+**Intensione**: la **regola, condizione o modo di presentazione** che determina quell'insieme.
+
+```
+"animale con il cuore"   ─┐
+                          ├─ stessa ESTENSIONE (di fatto, gli stessi animali)
+"animale con i reni"     ─┘   intensioni DIVERSE (due condizioni distinte)
+```
+
+Il punto è che l'identità di estensione **non implica** identità di intensione. Scoprire che due condizioni diverse selezionano gli stessi oggetti è una scoperta empirica, non logica — è l'esempio di Frege: «stella del mattino» e «stella della sera» indicano Venere, ma stabilirlo è stata astronomia.
+
+Da cui una conseguenza che ritorna ovunque: **due descrizioni possono essere equivalenti in ciò che denotano e diversissime in ciò che consentono di fare.**
+
+### Applicata alle funzioni e ai programmi
+
+Due programmi sono:
+
+| | quando |
+|---|---|
+| **estensionalmente uguali** | per ogni input producono lo stesso output |
+| **intensionalmente uguali** | sono lo stesso programma |
+
+Bubble sort e quicksort sono estensionalmente identici — calcolano la stessa funzione — e nessuno userebbe il primo. La differenza è tutta intensionale: numero di passi, struttura, lunghezza della descrizione.
+
+Stesso schema, sull'aritmetica:
+
+```
+mult(a,b)              e      a + a + … + a   (b volte)
+```
+
+calcolano la stessa funzione sui naturali. **Estensionalmente indistinguibili.** Ma nella prima il numero di ripetizioni è un argomento manipolabile; nella seconda è una proprietà della forma dell'espressione. L'addizione ripetuta *contiene* quell'informazione ma non la *rappresenta*.
+
+> Una funzione obiettivo che guardi solo *cosa produce* un'ipotesi non può preferire l'una all'altra. La distinzione va messa esplicitamente nel criterio — come lunghezza di descrizione, o come costo di esecuzione.
+
+### Perché il criterio guarda sempre la forma
+
+E qui la logica dà una risposta secca, che è il **teorema di Rice** (§3): ogni proprietà **estensionale** non banale di un programma è indecidibile, mentre le proprietà **intensionali** — lunghezza, sintassi, numero di passi — sono immediate.
+
+Quindi nessun criterio automatico può interrogare direttamente *cosa* un programma calcola. Può interrogare solo *com'è fatto*. Non è pigrizia del progettista: è l'unica cosa guardabile.
+
+### Le coppie imparentate
+
+Termini diversi, stessa faglia. Utile tenerli allineati:
+
+| | lato «cosa» | lato «come» |
+|---|---|---|
+| semantica classica | estensione | intensione |
+| programmi | funzione calcolata | algoritmo |
+| Frege | riferimento (*Bedeutung*) | senso (*Sinn*) |
+| teoria dei tipi | uguaglianza proposizionale | uguaglianza definizionale |
+| Cariani (§5) | — | ottimizzazione **delle** categorie vs **dentro** le categorie |
+| Carnap | estensione | intensione + stati possibili |
+
+L'ultima riga di Cariani non è un sinonimo delle altre, ma vi si aggancia: la sua ricerca **semantica** riguarda quali distinzioni esistano — cioè quale estensione sia raggiungibile — mentre la ricerca **sintattica** opera dentro un vocabolario dato.
+
+### Un avvertimento
+
+I termini sono usati in modi non sempre coincidenti nelle diverse tradizioni. In logica modale «intensione» ha un senso tecnico preciso (funzione dai mondi possibili alle estensioni, Carnap); in informatica è più informale e significa «riguardante la forma del programma»; in filosofia della mente si sovrappone parzialmente a *contenuto*.
+
+**Non sono la stessa nozione**, e chi le tratta come tali produce equivoci. La famiglia di somiglianza è reale; l'identità no.
+
+### Riferimenti per questa sezione
+
+**Le definizioni.** Estensione e intensione nella forma qui usata vengono da **Carnap (1947)**, §1; il precedente è **Frege (1892)**. Per una voce enciclopedica aggiornata e gratuita: *Intensional Logic* e *Reference* nella **Stanford Encyclopedia of Philosophy** (`plato.stanford.edu`) — è il punto di ingresso migliore se non si vuole partire dai classici. `[M]`
+
+**Il rapporto tra intensione e possibilità.** Il senso tecnico stretto — l'intensione come funzione dai mondi possibili alle estensioni — è di Carnap ed è ripreso in **Montague (1970), *Universal Grammar*** e nella semantica formale successiva. `[M]`
+
+**L'uguaglianza estensionale tra programmi.** La distinzione è standard in teoria dei linguaggi di programmazione; l'esposizione canonica sta in **Pierce, *Types and Programming Languages*** (MIT Press, 2002), sui capitoli dedicati all'equivalenza contestuale. Per il lato teoria dei tipi, **Martin-Löf (1984)**, già in §1. `[M]`
+
+**Il teorema di Rice.** **Rice (1953)**, già citato in §3. Per l'enunciato con dimostrazione: **Sipser, *Introduction to the Theory of Computation***, oppure **Rogers, *Theory of Recursive Functions and Effective Computability*** (1967) per la trattazione completa. `[M]`
+
+**Il costo intensionale dentro un criterio induttivo.** **Levin (1973)** e lo **speed prior** di **Schmidhuber (2002)**, entrambi in §3 — sono i due posti in cui il numero di passi entra formalmente nella selezione dell'ipotesi invece di restarne fuori.
+
+> ⚠️ **Nota di provenienza.** Le definizioni e i teoremi citati sopra sono standard. Non lo sono due cose in questa sezione, che vanno lette come rielaborazione e non come dottrina:
+>
+> — **l'esempio `mult` contro addizione ripetuta** è una formulazione di lavoro, non un esempio canonico della letteratura;
+> — **la tabella delle coppie imparentate** è un allineamento costruito qui. Le corrispondenze sono difendibili una per una, ma nessun autore le mette in fila così, e la riga su Cariani vi si aggancia solo per analogia.
+
 ## 1. La distinzione
 
 **Frege, G. (1892).** *Über Sinn und Bedeutung*. Zeitschrift für Philosophie und philosophische Kritik 100: 25–50. `[M]`
