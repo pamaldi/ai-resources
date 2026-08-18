@@ -17,16 +17,7 @@ inbox.md      link grezzi non ancora triati
 
 | Progetto | Scadenza | Stato |
 |---|---|---|
-| [NEmo 2026 — astrazioni performativamente stabili](projects/nemo-neurips-2026/) | submission 9–10 set 2026 | specifica e piano completi, implementazione da avviare |
 | [SemEval 2027 — CoCo-NLI vs AgentRisk](projects/semeval-2027/) | sample data dal 1 set 2026 | valutazione candidati |
-
-**NEmo 2026** — i documenti in ordine di lettura:
-1. [Contesto del progetto](projects/nemo-neurips-2026/progetto-nemo-2026-contesto.md) — idea, letteratura, decisioni prese
-2. [Verifica di originalità e riposizionamento](projects/nemo-neurips-2026/nemo-verifica-originalita-e-riposizionamento.md) — cosa è già stato fatto, dove resta il gap
-3. [Specifica sperimentale](projects/nemo-neurips-2026/specifica-sperimentale.md) — il disegno completo
-4. [Piano di implementazione](projects/nemo-neurips-2026/piano-implementazione.md) — 12 milestone, due gate di arresto
-5. [Reading list v4](projects/nemo-neurips-2026/reading-list-v4.md) — ~11 ore, razionate per quando servono
-6. [Formazione, corsi e letture](projects/nemo-neurips-2026/formazione-corsi-e-letture.md) — *da splittare: la parte corsi va in `formazione/`*
 
 ---
 
@@ -39,7 +30,8 @@ Perché predire è comprimere, e cosa serve perché un sistema passi da una desc
 
 - [Sintesi: compressione, ripetizione e scoperta autonoma di astrazioni](topics/compressione-astrazione/sintesi-compressione-astrazione.md) — MDL, neuroscienze della ripetizione, automi cellulari, HashLife
 - [Il testo come mondo pre-compresso vs. la durezza dell'AI fisica](topics/compressione-astrazione/testo-mondo-pre-compresso.md) — reading list ragionata, Moravec in versione moderna
-- → sfocia direttamente in [NEmo 2026](projects/nemo-neurips-2026/)
+- [La mappa dei libri](topics/compressione-astrazione/mappa-dei-libri.md) — MacKay, Mitchell, Hofstadter; *The Neural Mind* e la critica; citare come strumento vs come legittimità
+- [Scoperta di astrazioni — mappa della letteratura](topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) — library learning, skill discovery, la saturazione dell'area e il gap dell'astrazione parametrica
 
 ### 2. Intensione, autonomia e nuovi primitivi
 Un sistema può estendere il proprio alfabeto, o solo ricombinare i primitivi che ha ricevuto?
@@ -64,17 +56,21 @@ Un sistema può estendere il proprio alfabeto, o solo ricombinare i primitivi ch
 
 ## Formazione
 
-- [Corsi singoli UniBO — semiotica e filosofia del linguaggio](formazione/unibo.md) — costi, calendari, verdetti
+- [Corsi singoli e MOOC](formazione/corsi.md) — 8 corsi tra UniBO e UniFi, costi, calendari, vincoli di iscrizione, azioni
 - [Appunti Stanford — MDP](formazione/stanford-ai-mdp.md)
+
+**Prossime azioni** (dettaglio in [corsi.md §7](formazione/corsi.md)): mail a Garagnani · verifica che la carriera Master AI risulti chiusa · contatto con la Segreteria di Semiotica. Le ultime due maturano da sole, conviene avviarle subito.
 
 ---
 
 ## Lavori aperti
 
 - [x] ~~Fondere le due bibliografie intensione/autonomia in un solo documento canonico~~
-- [ ] Splittare `formazione-corsi-e-letture.md`: la valutazione corsi in `formazione/`, la mappa dei libri in `topics/compressione-astrazione/`
-- [ ] Riconciliare i verdetti sui corsi UniBO (`formazione/unibo.md` dice Cognitive Semantics, `formazione-corsi-e-letture.md` dice Universal Semantics)
-- [ ] Triare [inbox.md](inbox.md) verso i dossier tematici
+- [x] ~~Splittare `formazione-corsi-e-letture.md` e riconciliare i verdetti sui corsi UniBO~~
+- [x] ~~Triare `inbox.md` verso i dossier tematici~~
+- [x] ~~Progetto NEmo 2026: chiuso il 18 agosto 2026.~~ Le note bibliografiche sopravvissute sono in [scoperta-di-astrazioni-letteratura.md](topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md); il resto è recuperabile dalla storia di git
+- [ ] Ruotare la password su nemo.semantic.review — è ancora nella storia di git
+- [ ] Sostituire i redirect `lnkd.in` in [inbox.md](inbox.md) con gli URL reali
 
 ---
 

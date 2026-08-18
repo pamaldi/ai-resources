@@ -157,3 +157,10 @@ Quindi la lista completa aggiornata diventa:
 **Livello 9** — Frontiera e questioni aperte (ex 28–30)
 
 Il percorso di lettura aggiornato parte da: **0a → 0d → 0b → 0c** (capisci il problema) → **1 → 2** (framework concettuale) → poi scegli se andare verso vision (livello 2–4) o verso LLM (livello 6).
+
+---
+
+## Persone e fonti da seguire
+
+- [Christopher Olah](https://colah.github.io/about.html) — il riferimento singolo più utile sull'interpretabilità meccanicistica
+- [Anthropic — ricerca su interpretability](https://www.anthropic.com/research#interpretability)

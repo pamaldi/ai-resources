@@ -1,23 +1,13 @@
 # Compressione, ripetizione e scoperta autonoma di astrazioni
 
 **Sintesi di conversazione — 31 luglio 2026**
-Note di lavoro collegate al Progetto NEmo 2026. Filo conduttore: come un sistema possa passare autonomamente da una descrizione di livello *n* a una di livello *n+1*, e cosa serve perché ciò accada.
+Filo conduttore: come un sistema possa passare autonomamente da una descrizione di livello *n* a una di livello *n+1*, e cosa serve perché ciò accada.
+
+Per la mappa della letteratura sul campo — library learning, skill discovery, chi ha già fatto cosa — vedi [scoperta-di-astrazioni-letteratura.md](scoperta-di-astrazioni-letteratura.md).
 
 ---
 
-## 1. Progetto NEmo — le opzioni sul tavolo
-
-### 1.1 Le due strade per la partecipazione
-
-| | Short paper con early results | Position paper argomentativo |
-|---|---|---|
-| Formato | ≤ 4 pagine, CFP non-archival | ≤ 4 pagine, stessa categoria |
-| Contenuto | toy minimale funzionante + metriche | tesi + letteratura + posizionamento del gap |
-| Rischio | poco tempo per implementare | l'assenza dell'esperimento è un segnale negativo |
-
-**Decisione**: la prima, tenendo l'apparato argomentativo della seconda come cornice. Anche il *fallimento pulito* della condizione senza gate di verifica è un risultato pubblicabile.
-
-### 1.2 I due approcci implementativi
+## 1. I due approcci implementativi
 
 Stessa tesi (*la compressione è la value function, vincolata dalla correttezza verificata simbolicamente*), due vie. Cambia **chi propone e nomina la macro-azione**; il gate resta in entrambe.
 
@@ -49,8 +39,7 @@ Formula da paper: *la moltiplicazione non è conoscenza in più rispetto all'add
 
 ### 3.1 Aldo Gangemi (UniBO) — tangente, ma politicamente rilevante
 
-- **Anna Sofia Lippolis**, organizzatrice NEmo, è del suo gruppo. Utile sapere quale sensibilità leggerà il paper.
-- **Ontology Design Patterns**: astrazioni riusabili, parametriche, catalogate — concettualmente il tema della libreria. Ma sono *elicitate da esperti umani*: sono il **prodotto** del processo che si vuole automatizzare. Il progetto è, in un senso, "ODP discovery dalla ripetizione comportamentale, con verifica".
+- **Ontology Design Patterns**: astrazioni riusabili, parametriche, catalogate — concettualmente il tema della libreria. Ma sono *elicitate da esperti umani*: sono il **prodotto** del processo che si vorrebbe automatizzare. In un senso, la domanda è "ODP discovery dalla ripetizione comportamentale, con verifica".
 - Linea recente LLM → ontologie da competency question: stessa grammatica architetturale della via B (neurale propone, verifica valida).
 - **Non tocca**: MDL, predicate invention, skill discovery, genesi autonoma di simboli da tracce.
 - **Uso**: un paragrafo nella sezione shared semantics. Non di più.
