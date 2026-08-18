@@ -1,4 +1,9 @@
-# AI resources
+# Inbox — link grezzi
+
+Raccolta non triata. Quando una voce diventa rilevante per un filo di ricerca, va spostata nel dossier
+corrispondente sotto `topics/` (con una riga di contesto), non lasciata qui.
+
+---
 
 ## Workshops
 ### LLM
@@ -21,7 +26,7 @@
 - [SemEval](https://semeval.github.io/SemEval2025/tasks)
 - [Clef](https://clef2025.clef-initiative.eu/)
 - [NumEval](https://sites.google.com/view/numeval/paper-instructions?authuser=0)
-  - [Paper](resources/papers/NumEvalOverviewSemEval2024.pdf)
+  - [Paper](library/papers/NumEvalOverviewSemEval2024.pdf)
 - [Jigsaw - Agile Community Rules Classification](https://www.kaggle.com/competitions/jigsaw-agile-community-rules)
 - [MAP - Charting Student Math Misunderstandings](https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/data)
 
