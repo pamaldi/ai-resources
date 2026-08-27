@@ -8,6 +8,7 @@ projects/     lavori con una deadline
 topics/       dossier tematici — bibliografie e note che restano
 formazione/   corsi, valutazioni, appunti di corso
 library/      PDF (libri, paper, materiali di corso)
+conferenze.md conference e venue da tenere d'occhio
 inbox.md      link grezzi non ancora triati
 ```
 
@@ -57,6 +58,8 @@ Un sistema può estendere il proprio alfabeto, o solo ricombinare i primitivi ch
 ## Formazione
 
 - [Corsi singoli e MOOC](formazione/corsi.md) — 8 corsi tra UniBO e UniFi, costi, calendari, vincoli di iscrizione, azioni
+- [Computational Cognitive Modeling — NYU (Lake & Gureckis)](formazione/nyu-ccm-lake-gureckis.md) — corso pubblico, reading list canonica e mappatura ai fili; aggancio forte a composizionalità e program induction
+- [Categories and Concepts — NYU (Lake)](formazione/nyu-categories-concepts-lake.md) — seminario sulla psicologia dei concetti; il dominio (contenuto) di cui il CCM dà i metodi, chiude sulla conceptual combination
 - [Appunti Stanford — MDP](formazione/stanford-ai-mdp.md)
 
 **Prossime azioni** (dettaglio in [corsi.md §7](formazione/corsi.md)): mail a Garagnani · verifica che la carriera Master AI risulti chiusa · contatto con la Segreteria di Semiotica. Le ultime due maturano da sole, conviene avviarle subito.

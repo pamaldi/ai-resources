@@ -264,6 +264,14 @@ I termini sono usati in modi non sempre coincidenti nelle diverse tradizioni. In
 >
 > **Lascia aperto:** un quadro dello sviluppo cognitivo, non un'architettura formalmente specificata.
 
+**★ Zeng, P., Griffiths, T. L., & Lake, B. M. (2026).** *Nothing from Something: Can a Language Model Discover 0?*. CCN 2026. `[V]` 🟢
+
+> **Il problema #4 messo alla prova su un modello reale.** Prende esattamente la domanda $R_0 \rightarrow R_1$ di Piaget–Fodor e la operazionalizza: un Transformer addestrato su aritmetica *senza* lo zero può postulare lo zero — un primitivo $p_{n+1}$ nuovo, non una combinazione di quelli dati? Zero-shot **nessun modello** ci riesce (coerente con Fodor); con pochi esempi few-shot generalizzano, e il pretraining linguistico **dimezza** gli esempi necessari — cioè il linguaggio fa da impalcatura, versione misurabile del *bootstrapping* di Carey (§5). Cita esplicitamente Fodor, Piaget e Carey.
+>
+> Dato empirico raro su questo asse: non scioglie il disaccordo del §0, ma sposta la domanda «può comparire un concetto che il sistema non possiede?» dal piano filosofico a un esperimento controllato. Dettaglio sperimentale e mech-interp nel dossier [composizionalità](../composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md#-zeng-griffiths--lake--un-modello-può-scoprire-lo-zero).
+>
+> **Lascia aperto:** mostra *che* la scoperta è difficile e *che* il linguaggio aiuta, non *quale meccanismo* introduca la nuova distinzione — la circuiteria resta da trovare. Consegna al §5 (Carey, Drescher) la domanda sul meccanismo costruttivo.
+
 ---
 
 ## 5. Discontinuità concettuale e costruzione di nuove rappresentazioni
