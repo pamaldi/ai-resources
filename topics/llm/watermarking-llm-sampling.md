@@ -133,6 +133,71 @@ Per ogni token, essere favorito da una certa chiave in una posizione è compensa
 
 Perché il testo resta comunque di qualità: il torneo può scegliere **solo** tra i candidati effettivamente estratti da `p`, quindi solo tra alternative che il modello considerava già plausibili. Non può mai far vincere un token che il modello giudicava assurdo (avrebbe probabilità pressoché nulla di entrare tra i candidati).
 
+### Esempio numerico: come cambia davvero la distribuzione
+
+La proprietà `E_chiave[p_torneo] = p` è facile da enunciare ma nasconde il punto pratico: **a chiave fissata la distribuzione è alterata, e anche parecchio**. Vale la pena vederlo su un caso minimo — vocabolario di 3 token con `p = (A: 0,70, B: 0,20, C: 0,10)`.
+
+**Formula per M=1.** Si estraggono 2 candidati i.i.d. da `p` e si confrontano con `g_1`. Detta `P_0` la massa totale dei token con g=0:
+
+```
+P(x vince) = p_x^2 + 2*p_x * sum_{y!=x} p_y * w(x,y)
+```
+
+con `w = 1` se x batte y, `1/2` se pareggiano, `0` se perde. I termini `p_x^2` si cancellano e resta una forma sorprendentemente semplice:
+
+| | fattore di scala |
+|---|---|
+| token con **g=1** | `p_x -> p_x * (1 + P_0)` |
+| token con **g=0** | `p_x -> p_x * P_0` |
+
+L'intuizione: un token con g=0 vince **solo** se l'avversario è anch'esso g=0 (e poi vince il pareggio a monetina), quindi è confinato dentro la sotto-popolazione dei perdenti — da cui il fattore `P_0 < 1`. Un token con g=1 batte tutta la massa `P_0` e pareggia con il resto.
+
+**Le 8 assegnazioni possibili** (ognuna con probabilità 1/8, perché ogni bit g è uniforme e indipendente):
+
+| `(g_A, g_B, g_C)` | `P_0` | A | B | C |
+|---|---|---|---|---|
+| (1,1,1) | 0 | 70,0% | 20,0% | 10,0% |
+| (1,1,0) | 0,10 | 77,0% | 22,0% | 1,0% |
+| (1,0,1) | 0,20 | 84,0% | 4,0% | 12,0% |
+| (1,0,0) | 0,30 | **91,0%** | 6,0% | 3,0% |
+| (0,1,1) | 0,70 | 49,0% | 34,0% | 17,0% |
+| (0,1,0) | 0,80 | 56,0% | **36,0%** | 8,0% |
+| (0,0,1) | 0,90 | 63,0% | 18,0% | **19,0%** |
+| (0,0,0) | 1 | 70,0% | 20,0% | 10,0% |
+| **media** | | **70,0%** | **20,0%** | **10,0%** |
+
+Tre osservazioni:
+
+1. **(1,1,1) e (0,0,0) restituiscono `p` intatta**: se tutti i candidati hanno lo stesso bit, ogni scontro è un pareggio e si decide tutto a monetina — il torneo degenera nel campionamento ordinario. È il motivo per cui il segnale nasce dallo *squilibrio* dei bit, non dai bit in sé.
+2. **Gli estremi hanno forma chiusa**: massimo `p_x*(2 - p_x) = 1 - (1-p_x)^2` (token con g=1 e tutti gli altri a 0), minimo `p_x^2` (g=0 e tutti gli altri a 1). Qui: A ∈ [49%, 91%], B ∈ [4%, 36%], C ∈ [1%, 19%].
+3. **Con M=1 l'ordine non si può ribaltare**: il massimo di B (36%) resta sotto il minimo di A (49%). Il torneo *inclina* la distribuzione, non la stravolge.
+
+**Con M=2** (4 candidati) i vincitori del turno 1 sono i.i.d. tra loro, quindi la stessa formula si itera — è una ricorsione, non un caso nuovo:
+
+```
+p^(1) = torneo(p, g_1)   ->   p^(2) = torneo(p^(1), g_2)
+```
+
+Con `g_1 = (0,1,1)` e `g_2 = (0,1,1)` (A sfortunato in entrambi i turni):
+
+| | A | B | C |
+|---|---|---|---|
+| `p` originaria | 70,0% | 20,0% | 10,0% |
+| dopo turno 1 (`P_0`=0,70) | 49,0% | 34,0% | 17,0% |
+| dopo turno 2 (`P_0`=0,49) | **24,0%** | **50,7%** | 25,3% |
+
+Qui l'ordine **si ribalta**: B supera A. È il compromesso di M visto in concreto (cfr. "Perché più funzioni g aiutano"). La non distorsione continua a valere per induzione: ogni turno conserva la media rispetto al proprio `g_m`, e i `g_m` sono indipendenti tra loro.
+
+**Il segnale che ne deriva.** A parità di assegnazione, la probabilità che il token emesso abbia g=1 è `P_1*(1 + P_0) = 1 - P_0^2`. Mediando sulle assegnazioni si ottiene lo score atteso del rilevatore per M=1:
+
+```
+E[score] = 3/4 - (sum_i p_i^2) / 4
+```
+
+Nell'esempio `sum p^2 = 0,54` → **E[score] = 0,615** invece di 0,5.
+
+Questa formula chiude il cerchio sul limite del metodo: con distribuzione deterministica (un token a probabilità 1, `sum p^2 = 1`) lo score vale esattamente 0,5 — **nessun watermark possibile**; con distribuzione piatta su vocabolario grande (`sum p^2 -> 0`) tende a 0,75. Il watermark vive dell'entropia della distribuzione: dove il modello non ha scelta, non c'è nulla in cui nascondere il segnale. Da qui l'interazione con temperatura, top-k e top-p (§3-4): ogni intervento che concentra la massa su un solo token riduce anche la capacità di watermarking.
+
 ### Verifica — passo per passo
 
 Il rilevatore ha solo: il testo e la chiave. Per ogni token `x_t` del testo:

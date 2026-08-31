@@ -142,6 +142,14 @@ Le due valutazioni davano verdetti opposti su **Universal Semantics**. Non per u
 
 ---
 
+### 🧠 Cognition, Brain and Behavior: Perception and Action (B8882) — il complemento empirico
+- **Elena Gherri** · 6 CFU · PSIC-01/A · inglese · scritto (5 domande, 1h30) · clausola non frequentanti esplicita
+- Doppia via visiva (Milner & Goodale), forward models/copia efferente, agency e ownership, neuroni specchio. Neuroscienza cognitiva sperimentale seria: è il ramo *empirico* dell'embodiment che il piano non ha — ma è psicologia dell'azione, di significato non parla. Contenuto ampiamente auto-studiabile (Wolpert, Haggard, Blanke): preparazione, non sostanza. Primo da tagliare se il budget stringe.
+
+### 📜 Philosophy of Language (B8878) — l'approfondimento specialistico
+- **Francesco Bellucci** · 6 CFU · PHIL-04/B · inglese · orale, partecipazione fortemente incoraggiata (no clausola non frequentanti)
+- *Speech act theory from Frege to Habermas*, ma aperto dal **Logic Notebook di Peirce**: gli atti linguistici come specie di azione segnica, non come intenzioni alla Grice-Searle. Benveniste e Habermas al posto della genealogia edulcorata Oxford→Berkeley. Aggancio forte col multi-agente: il fallimento della semantica mentalistica di FIPA-ACL e lo spostamento ai *social commitment* (Singh) è la stessa mossa di Habermas. Costo d'ingresso reale (cap. 3 dell'*Agire comunicativo*, Peirce senza grafi esistenziali). **Il corso che non puoi rifarti da solo.**
+
 ### Cognitive Neuroscience — Starita / Di Pellegrino (UniBO, LM Artificial Intelligence)
 
 **Dati**: 6 CFU · PSIC-01/B · inglese · in presenza · LM Artificial Intelligence (cod. 6700). Modulo 1 Starita (4 CFU), Modulo 2 Di Pellegrino (2 CFU). Prerequisito: anatomia e fisiologia del sistema nervoso a livello di scuola superiore.
