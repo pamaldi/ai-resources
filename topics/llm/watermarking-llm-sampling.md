@@ -95,7 +95,7 @@ Proprietà chiave:
 
 ## 7. SynthID-Text — tournament sampling
 
-(Metodo di DeepMind, pubblicato su Nature 2024: https://www.nature.com/articles/s41586-024-08025-4)
+**Dathathri, S., See, A., Ghaisas, S., Huang, P.-S., McAdam, R., Welbl, J., et al. (2024).** *Scalable Watermarking for Identifying Large Language Model Outputs*. Nature 634 — https://www.nature.com/articles/s41586-024-08025-4 (Google DeepMind)
 
 Per rendere la verifica possibile guardando **solo il token presente nel testo**, serve una funzione che dipenda dal token e dal seed, non dalla distribuzione del modello:
 
@@ -236,4 +236,4 @@ Ogni g aggiuntiva è una misura statisticamente indipendente sullo stesso token 
 | Seed = hash(chiave, contesto) | 1 | Dove cade il punto sul segmento | No (serve `p` per sapere cosa avrebbe prodotto quel seed) |
 | SynthID (torneo) | 2^M | Chi vince gli scontri tra candidati già estratti | Sì (basta valutare g sul token presente) |
 
-Il salto concettuale di SynthID è spostare l'intervento dal "dado" (il seed che sceglie il punto sul segmento) all'"arbitro" (il torneo che seleziona tra più lanci del dado già avvenuti) — è questo spostamento a rendere la verifica possibile guardando solo il testo, e a permettere una garanzia formale di non distorsione (in media sulle chiavi) invece di un compromesso tarato a occhio come nello schema con bonus ai logit (green list / red list di Kirchenbauer et al., 2023) che aggiunge un bonus δ ai logit dei token con g=1 prima della softmax, distorcendo direttamente e permanentemente la distribuzione.
+Il salto concettuale di SynthID è spostare l'intervento dal "dado" (il seed che sceglie il punto sul segmento) all'"arbitro" (il torneo che seleziona tra più lanci del dado già avvenuti) — è questo spostamento a rendere la verifica possibile guardando solo il testo, e a permettere una garanzia formale di non distorsione (in media sulle chiavi) invece di un compromesso tarato a occhio come nello schema con bonus ai logit — la green list / red list di **Kirchenbauer, J., Geiping, J., Wen, Y., Katz, J., Miers, I. & Goldstein, T. (2023)**, *A Watermark for Large Language Models*, ICML — che aggiunge un bonus δ ai logit dei token con g=1 prima della softmax, distorcendo direttamente e permanentemente la distribuzione.

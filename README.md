@@ -58,7 +58,7 @@ Dove finisce il riuso di primitive già apprese e dove inizia la costruzione di 
 - [Impostazione del problema](topics/composizionalita_transformer/composizionalita_transformer_frontiera_riuso_algoritmico.md) — la frontiera del riuso algoritmico
 - [Disegno sperimentale](topics/composizionalita_transformer/README_composizionalita_transformer_v2.md) — primitive, recupero, routing, memoria intermedia
 - [Bibliografia](topics/composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md) — 21 voci, 12 marcate come portanti per il design
-- → il ponte con il filo 2 è [Zeng, Griffiths & Lake (2026)](topics/composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md#-zeng-griffiths--lake--un-modello-può-scoprire-lo-zero), l'unica voce che i due dossier si linkano a vicenda
+- → il ponte con il filo 2 è [Zeng, P., Griffiths, T. L. & Lake, B. M. (2026), *Nothing from Something: Can a Language Model Discover 0?*](topics/composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md#-zeng-griffiths--lake--un-modello-può-scoprire-lo-zero), l'unica voce che i due dossier si linkano a vicenda
 
 ### 5. Interpretability
 - [Papers per livello di profondità](topics/interpretability/papers.md) — dai framework concettuali (Lipton, Rudin) ai metodi meccanicistici
