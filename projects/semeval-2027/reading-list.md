@@ -1,12 +1,16 @@
-# Reading list — SemEval 2027: CoCo-NLI vs AgentRisk
+# Reading list — SemEval 2027: DiCo-NLI (ex CoCo-NLI) vs AgentRisk
 
 Riferimento: valutazione candidati per SemEval 2027, in continuità con la pipeline neuro-simbolica NS-EDL usata per il Task 11 (2026, 96,34% accuratezza, TCE ~1.02).
+
+Approfondimento operativo: [Task 2 — DiCo-NLI: repository, organizzatori e paper](task-2-dico-nli-organizzatori.md).
 
 Criterio guida: formale/strutturato vs vago nelle specifiche di task, da verificare sui sample data reali (dal 1° settembre 2026) e non solo sulle descrizioni.
 
 ---
 
-## CoCo-NLI
+## DiCo-NLI (nome precedente: CoCo-NLI)
+
+La pagina centrale SemEval conserva il nome CoCo-NLI; il repository e la proposta revisionata degli organizzatori usano DiCo-NLI, con focus più preciso sulla consistenza direzionale delle predizioni NLI.
 
 Organizzatori: Apaolaza Larraya, Soroa, Agerri, Lopez-Gazpio — gruppo HiTZ.
 
