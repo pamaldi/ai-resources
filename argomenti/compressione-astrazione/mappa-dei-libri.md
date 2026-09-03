@@ -14,9 +14,9 @@ Il buco preciso: **nessun libro tratta la scoperta autonoma di astrazioni verifi
 
 ## 2. I tre che coprono un terzo ciascuno
 
-**MacKay — *Information Theory, Inference, and Learning Algorithms*** (Cambridge, 2003). Entropia, codifica aritmetica (il capitolo migliore che esista), inferenza bayesiana, Occam come conseguenza automatica della marginalizzazione, reti neurali. Esercizi risolti. **Gratis in PDF** — copia locale: [library/books](../../library/books/MacKay%20-%20Information%20Theory,%20Inference,%20and%20Learning%20Algorithms.pdf)
+**MacKay — *Information Theory, Inference, and Learning Algorithms*** (Cambridge, 2003). Entropia, codifica aritmetica (il capitolo migliore che esista), inferenza bayesiana, Occam come conseguenza automatica della marginalizzazione, reti neurali. Esercizi risolti. **Gratis in PDF** — copia locale: [libri](../../libri/MacKay_Information-Theory-Inference-and-Learning-Algorithms.pdf)
 
-**Melanie Mitchell — *Complexity: A Guided Tour*** (Oxford, 2009). Automi cellulari, computational mechanics, emergenza, informazione, evoluzione, Hofstadter sull'analogia. Mitchell **era nella stanza**: coautrice con Crutchfield sull'evoluzione dei CA. Divulgativo ma non annacquato. Copia locale: [library/books](../../library/books/Complexity_-_A_Guided_Tour.pdf)
+**Melanie Mitchell — *Complexity: A Guided Tour*** (Oxford, 2009). Automi cellulari, computational mechanics, emergenza, informazione, evoluzione, Hofstadter sull'analogia. Mitchell **era nella stanza**: coautrice con Crutchfield sull'evoluzione dei CA. Divulgativo ma non annacquato. Copia locale: [libri](../../libri/Mitchell_Complexity-A-Guided-Tour.pdf)
 
 **Hofstadter — *Gödel, Escher, Bach***. Livelli di descrizione, simboli che emergono da substrato, ricorsione, autoriferimento, la vespa Sphex. Nessuna matematica della compressione, ma pone *la domanda* nella forma giusta.
 
@@ -29,7 +29,7 @@ Il buco preciso: **nessun libro tratta la scoperta autonoma di astrazioni verifi
 | MDL a fondo | **Grünwald**, *The Minimum Description Length Principle* (MIT, 2007) |
 | Kolmogorov, Solomonoff | **Li & Vitányi**, *An Introduction to Kolmogorov Complexity* (Springer, 4ª ed. 2019) |
 | Perché i sistemi complessi sono gerarchici | **Simon**, *The Sciences of the Artificial* — il saggio *The Architecture of Complexity* è la teoria del chunking prima che avesse un nome |
-| Numerosità e aritmetica nel cervello | **Dehaene**, *The Number Sense* — copia locale: [library/books](../../library/books/the-number-sense-how-the-mind-creates-mathematics.pdf) |
+| Numerosità e aritmetica nel cervello | **Dehaene**, *The Number Sense* — copia locale: [libri](../../libri/Dehaene_The-Number-Sense.pdf) |
 | Astrazione dalla ripetizione, lato cognitivo | **Hofstadter & Sander**, *Surfaces and Essences* (2013) |
 | Competenza senza comprensione | **Dennett**, *From Bacteria to Bach and Back* (2017) |
 | RL e cervello | **Sutton & Barto**, capitoli 14–15 |

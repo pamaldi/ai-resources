@@ -8,7 +8,7 @@ https://transformer-circuits.pub/2021/framework/index.html
 
 # 0. Perché leggere questo paper
 
-È una delle voci più trasversali dell'archivio: compare nelle bibliografie su [composizionalità](../composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md), [content-drift](../content-drift/bibliografia_drift_mechint.md), [reasoning](../reasoning/reasoning-bibliografia-ragionata.md) e [interpretability](papers.md). Vedi anche [bibliografia trasversale §2](../../bibliografia-trasversale.md).
+È una delle voci più trasversali dell'archivio: compare nelle bibliografie su [composizionalità](../composizionalita-transformer/bibliografia.md), [content-drift](bibliografia-drift-mechint.md), [reasoning](../reasoning/bibliografia-ragionata.md) e [interpretability](bibliografia.md). Vedi anche [bibliografia trasversale §2](../../bibliografia-trasversale.md).
 
 Il suo valore principale non è un singolo risultato sperimentale, ma il **vocabolario matematico e concettuale** che introduce o rende operativo:
 
@@ -183,7 +183,7 @@ Tre conseguenze che spiegano comportamenti altrimenti misteriosi:
 
 **I numeri vengono spezzati in modo arbitrario.** `"1234"` può diventare `"123"` + `"4"`, oppure `"12"` + `"34"`, a seconda di cosa era frequente nel corpus. Due numeri simili possono avere tokenizzazioni completamente diverse.
 
-> → È esattamente il motivo per cui il dossier [composizionalità nei Transformer](../composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md) impone la **tokenizzazione per-cifra** negli esperimenti aritmetici: con la tokenizzazione di default non si può separare "il modello non sa fare l'addizione" da "il modello non riesce a vedere le cifre".
+> → È esattamente il motivo per cui il dossier [composizionalità nei Transformer](../composizionalita-transformer/bibliografia.md) impone la **tokenizzazione per-cifra** negli esperimenti aritmetici: con la tokenizzazione di default non si può separare "il modello non sa fare l'addizione" da "il modello non riesce a vedere le cifre".
 
 [LIMITE] Il vocabolario BPE viene costruito su un corpus prevalentemente inglese. Le altre lingue vengono spezzate più finemente: la stessa frase in italiano occupa più token che in inglese, e quindi costa di più e consuma più contesto.
 
@@ -1028,7 +1028,7 @@ Tre conseguenze che spiegano molte cose del comportamento degli LLM:
 
 [NOTA] In pratica non si ricalcola davvero tutto: `K` e `V` delle posizioni già viste non cambiano e vengono riusate (**KV cache**). È un'ottimizzazione, non un cambio di semantica.
 
-→ **Il passo «si sceglie un token»** — campionamento, temperatura, top-k, top-p, seed — è l'oggetto di [watermarking-llm-sampling.md](../llm/watermarking-llm-sampling.md), che comincia esattamente dove questa sezione finisce.
+→ **Il passo «si sceglie un token»** — campionamento, temperatura, top-k, top-p, seed — è l'oggetto di [watermarking-llm-sampling.md](../fondamenti/watermarking-llm-sampling.md), che comincia esattamente dove questa sezione finisce.
 
 ---
 
@@ -1151,7 +1151,7 @@ Il punto è che **per predire bene bisogna aver capito molto**. Completare
 
 richiede di saper risolvere l'equazione. Completare un dialogo richiede di modellare chi parla. L'obiettivo è semplice; **il compito di raggiungerlo non lo è**.
 
-[LIMITE] Questo però non autorizza a dire che il modello "capisce" nel senso in cui capisce una persona. È il punto su cui si separano le posizioni — → [reasoning, nucleo G](../reasoning/reasoning-bibliografia-ragionata.md), in particolare **McCoy, R. T., et al. (2023/2024).** *Embers of Autoregression: Understanding Large Language Models Through the Problem They Are Trained to Solve*, che sostiene che la performance è predetta dalla probabilità del task sotto la distribuzione di training.
+[LIMITE] Questo però non autorizza a dire che il modello "capisce" nel senso in cui capisce una persona. È il punto su cui si separano le posizioni — → [reasoning, nucleo G](../reasoning/bibliografia-ragionata.md), in particolare **McCoy, R. T., et al. (2023/2024).** *Embers of Autoregression: Understanding Large Language Models Through the Problem They Are Trained to Solve*, che sostiene che la performance è predetta dalla probabilità del task sotto la distribuzione di training.
 
 ---
 
@@ -1673,11 +1673,11 @@ Una testa successiva può usare ciò che una precedente ha scritto. Questo crea 
 
 # 23. Collegamenti all'archivio
 
-- **Induction heads** → **Olsson, C., et al. (2022).** *In-Context Learning and Induction Heads*. Transformer Circuits Thread — seguito diretto, già in [reasoning](../reasoning/reasoning-bibliografia-ragionata.md) I.1.
+- **Induction heads** → **Olsson, C., et al. (2022).** *In-Context Learning and Induction Heads*. Transformer Circuits Thread — seguito diretto, già in [reasoning](../reasoning/bibliografia-ragionata.md) I.1.
 - **QK/OV come metodo** → **Wang, K. R., Variengien, A., Conmy, A., Shlegeris, B. & Steinhardt, J. (2023).** *Interpretability in the Wild: A Circuit for Indirect Object Identification in GPT-2 Small*. ICLR.
 - **Limite attention-only / modelli grandi** → **Lindsey, J., et al. (2025).** *On the Biology of a Large Language Model*. Anthropic.
 - **Causalità** → **Geiger, A., Lu, H., Icard, T. & Potts, C. (2021).** *Causal Abstractions of Neural Networks*. NeurIPS.
-- **Residual stream e logit lens** → [watermarking e campionamento](../llm/watermarking-llm-sampling.md) §1.
+- **Residual stream e logit lens** → [watermarking e campionamento](../fondamenti/watermarking-llm-sampling.md) §1.
 - **MLP come memoria / associazioni** → Geva et al. (2021); Meng et al. (2022).
 - **Superposition** → Elhage et al. (2022), *Toy Models of Superposition*.
 

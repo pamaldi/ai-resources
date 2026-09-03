@@ -14,8 +14,8 @@
 
 - [Appunti dai corsi Stanford (Amidi) — CS221 e affini](https://stanford.edu/~shervine/teaching/cs-221/)
 - [Slide di Yann LeCun](https://drive.google.com/file/d/1oeaO03YRpxkTjKamfYrksEm-MCHk4JbS/view)
-- [Appunti ML di Andrew Ng](../../library/corsi/ml_notes_Andrew_Ng.pdf) — copia locale
-- [MDP, V e Q — appunti](../../formazione/stanford-ai-mdp.md)
+- [Appunti ML di Andrew Ng](../../formazione/materiali/Ng_Machine-Learning-Notes.pdf) — copia locale
+- [MDP, V e Q — appunti](stanford-ai-mdp.md)
 
 ## Reinforcement learning
 

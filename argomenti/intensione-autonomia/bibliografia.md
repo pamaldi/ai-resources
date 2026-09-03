@@ -268,7 +268,7 @@ I termini sono usati in modi non sempre coincidenti nelle diverse tradizioni. In
 
 > **Il problema #4 messo alla prova su un modello reale.** Prende esattamente la domanda $R_0 \rightarrow R_1$ di Piaget–Fodor e la operazionalizza: un Transformer addestrato su aritmetica *senza* lo zero può postulare lo zero — un primitivo $p_{n+1}$ nuovo, non una combinazione di quelli dati? Zero-shot **nessun modello** ci riesce (coerente con Fodor); con pochi esempi few-shot generalizzano, e il pretraining linguistico **dimezza** gli esempi necessari — cioè il linguaggio fa da impalcatura, versione misurabile del *bootstrapping* di Carey (§5). Cita esplicitamente Fodor, Piaget e Carey.
 >
-> Dato empirico raro su questo asse: non scioglie il disaccordo del §0, ma sposta la domanda «può comparire un concetto che il sistema non possiede?» dal piano filosofico a un esperimento controllato. Dettaglio sperimentale e mech-interp nel dossier [composizionalità](../composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md#-zeng-griffiths--lake--un-modello-può-scoprire-lo-zero).
+> Dato empirico raro su questo asse: non scioglie il disaccordo del §0, ma sposta la domanda «può comparire un concetto che il sistema non possiede?» dal piano filosofico a un esperimento controllato. Dettaglio sperimentale e mech-interp nel dossier [composizionalità](../composizionalita-transformer/bibliografia.md#-zeng-griffiths--lake--un-modello-può-scoprire-lo-zero).
 >
 > **Lascia aperto:** mostra *che* la scoperta è difficile e *che* il linguaggio aiuta, non *quale meccanismo* introduca la nuova distinzione — la circuiteria resta da trovare. Consegna al §5 (Carey, Drescher) la domanda sul meccanismo costruttivo.
 
@@ -781,7 +781,7 @@ Ed è aperta anche la questione se le due tradizioni stiano parlando dello stess
 - Pubblicazioni: <https://petercariani.com/Publications.html> · Cybernetics/emergence: <https://petercariani.com/Cybernetics.html>
 - Tesi 1989 (il testo gratuito più importante da scaricare subito): <https://petercariani.com/CarianiNewWebsite/Publications_files/CarianiPhDIntegrated1989.pdf>
 - *Towards an Evolutionary Semiotics*: <https://petercariani.com/CarianiNewWebsite/Publications_files/EvolutionarySemiotics97.pdf>
-- Copie locali in questo repo: [Cariani 1991](../../library/papers/Cariani_1991_ArtificialLife-II.pdf) · [Cariani 1998](../../library/papers/Cariani_1998.pdf)
+- Copie locali in questo repo: [Cariani 1991](pdf/Cariani_Emergence-and-Artificial-Life-ALife-II.pdf) · [Cariani 1998](pdf/Cariani_Epistemic-Autonomy-through-Adaptive-Sensing.pdf)
 
 **Bengio, Courville & Vincent — *Representation Learning*** · 🟢 preprint completo
 - <https://arxiv.org/abs/1206.5538> · PDF: <https://arxiv.org/pdf/1206.5538>

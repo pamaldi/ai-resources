@@ -13,7 +13,7 @@ Corso NYU **PSYCH-GA 3405 / DS-GA 1016**, edizione Spring 2024. Materiale pubbli
 
 Il punto di forza vero è che **non è un corso di ML travestito**: il filo conduttore è *modellare la mente*, non massimizzare un'accuratezza. Lo si vede dalla scelta di mettere in bibliografia il dibattito **Jones & Love (*Bayesian Fundamentalism or Enlightenment?*)** e **Griffiths et al. sui livelli di analisi** — cioè fa riflettere su *cosa spiega* un modello (livello computazionale vs algoritmico di Marr), non solo su come implementarlo. È la prospettiva che manca a quasi tutti i corsi di deep learning.
 
-Lake è l'autore del lavoro su *human-level concept learning through probabilistic program induction* (Science 2015, in bibliografia) e di gran parte del dibattito su composizionalità e apprendimento sistematico nelle reti — aggancio diretto a [composizionalita_transformer](../topics/composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md).
+Lake è l'autore del lavoro su *human-level concept learning through probabilistic program induction* (Science 2015, in bibliografia) e di gran parte del dibattito su composizionalità e apprendimento sistematico nelle reti — aggancio diretto a [composizionalità nei Transformer](../argomenti/composizionalita-transformer/bibliografia.md).
 
 > **Corso gemello.** [Categories and Concepts](nyu-categories-concepts-lake.md), sempre di Lake, è il complemento di *contenuto*: la psicologia dei concetti (teorie, modelli, sviluppo, conceptual combination) di cui questo corso dà i *metodi*. La lezione *Categorization* del CCM lì diventa un semestre.
 
@@ -23,11 +23,11 @@ Lake è l'autore del lavoro su *human-level concept learning through probabilist
 
 | Blocco del corso | Filo nel repo | Aggancio |
 |---|---|---|
-| Program induction, language of thought (Lake 2015, Goodman-Tenenbaum) | [Compressione → astrazione](../topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) · [Intensione/autonomia](../topics/intensione-autonomia/bibliografia.md) | scoperta di primitivi, library learning, riuso algoritmico |
-| Reti neurali / PDP (Elman, McClelland-Rogers) | [composizionalita_transformer](../topics/composizionalita_transformer/) | strutture in sequenze, sistematicità |
-| Modelli grafici probabilistici (Kemp-Tenenbaum, *discovery of structural form*) | [Reasoning neuro-simbolico](../topics/reasoning-neurosimbolico/neurosimbolico-nlp.md) | struttura latente e inferenza |
-| Rational vs mechanistic (Jones-Love, Griffiths) | [Interpretability](../topics/interpretability/papers.md) | livelli di spiegazione, cosa significa "spiegare" un modello |
-| Reinforcement learning | [Fondamenti — MDP](stanford-ai-mdp.md) | prediction error, decisione |
+| Program induction, language of thought (Lake 2015, Goodman-Tenenbaum) | [Compressione → astrazione](../argomenti/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) · [Intensione/autonomia](../argomenti/intensione-autonomia/bibliografia.md) | scoperta di primitivi, library learning, riuso algoritmico |
+| Reti neurali / PDP (Elman, McClelland-Rogers) | [composizionalità nei Transformer](../argomenti/composizionalita-transformer/) | strutture in sequenze, sistematicità |
+| Modelli grafici probabilistici (Kemp-Tenenbaum, *discovery of structural form*) | [Reasoning neuro-simbolico](../argomenti/reasoning/neurosimbolico-nlp.md) | struttura latente e inferenza |
+| Rational vs mechanistic (Jones-Love, Griffiths) | [Interpretability](../argomenti/interpretability/bibliografia.md) | livelli di spiegazione, cosa significa "spiegare" un modello |
+| Reinforcement learning | [Fondamenti — MDP](../argomenti/fondamenti/stanford-ai-mdp.md) | prediction error, decisione |
 
 ---
 
@@ -94,5 +94,5 @@ Tra le migliori risorse pubbliche sul computational cognitive modeling. Come mat
 **Limiti**: non introduttivo (prerequisiti reali); homework e video non pubblici; taglio 2024 volutamente "senza hype" — inquadra gli LLM come *uno* dei framework, non li insegue. A seconda dell'obiettivo è pregio (fondamenti duraturi) o limite (poco sulle architetture recenti).
 
 **Azioni possibili**
-- [ ] Scaricare le slide di *program induction* e *rational vs mechanistic* → alimentano [scoperta-di-astrazioni](../topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) e [interpretability](../topics/interpretability/papers.md)
-- [ ] Leggere Elman (1990) e Kemp & Tenenbaum (2008) come ancora per [composizionalita_transformer](../topics/composizionalita_transformer/)
+- [ ] Scaricare le slide di *program induction* e *rational vs mechanistic* → alimentano [scoperta-di-astrazioni](../argomenti/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) e [interpretability](../argomenti/interpretability/bibliografia.md)
+- [ ] Leggere Elman (1990) e Kemp & Tenenbaum (2008) come ancora per [composizionalità nei Transformer](../argomenti/composizionalita-transformer/)

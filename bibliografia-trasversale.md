@@ -29,15 +29,15 @@ Non entra una voce solo perché è buona. Le bibliografie originali restano il p
 
 | Documento | Copre | Voci ca. | Criterio dichiarato | Validità |
 |---|---|---|---|---|
-| [intensione-autonomia](topics/intensione-autonomia/bibliografia.md) | da dove vengono i primitivi; autonomia, normatività | ~60 in 17 §§ | sì — due tradizioni, con §0 sul loro disaccordo | disponibilità testi verificata 17 ago 2026 |
-| [reasoning](topics/reasoning/reasoning-bibliografia-ragionata.md) | reasoning come omonimo; 11 nuclei A–K | ~120 (45 nell'itinerario) | sì, ed è il più esplicito dell'archivio | citazioni al mag 2026 |
-| [composizionalità transformer](topics/composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md) | aritmetica e circuiti nei Transformer | ~21, di cui 12 ★ | sì — rilevanza per il design sperimentale | — |
-| [content drift](topics/content-drift/bibliografia_drift_mechint.md) | CoT drift + mech interp su EDOS/HateXplain | ~55 in 10 §§ | no, ma ha uno schema di verifica (✔/⚠) | — |
-| [scoperta di astrazioni](topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) | library learning, skill discovery, compressione | ~50 | implicito (prior art di un progetto chiuso) | **ago 2026, invecchia in fretta** |
-| [interpretability](topics/interpretability/papers.md) | XAI e mech interp, livelli 0–9 | ~35 | **no** | — |
-| [mappa dei libri](topics/compressione-astrazione/mappa-dei-libri.md) | monografie | ~15 | sì — cosa copre quale terzo del problema | lug 2026 |
-| [SemEval 2027](projects/semeval-2027/reading-list.md) | valutazione di task candidate (due nella lista, sette nella [valutazione del 3 set](projects/semeval-2027/semeval2027-valutazione-task.md)) | ~10 | sì — formale/strutturato vs vago | training data 8 set 2026 |
-| [AAS — paper della lezione *Intelligent Agents*](formazione/autonomous-adaptive-systems/papers/README.md) | i riferimenti di un corso di RL e agenti | 9 + 1 non scaricabile | sì — cosa è citato nelle slide, non cosa è rilevante | ricostruita dalle slide, 3 set 2026 |
+| [intensione-autonomia](argomenti/intensione-autonomia/bibliografia.md) | da dove vengono i primitivi; autonomia, normatività | ~60 in 17 §§ | sì — due tradizioni, con §0 sul loro disaccordo | disponibilità testi verificata 17 ago 2026 |
+| [reasoning](argomenti/reasoning/bibliografia-ragionata.md) | reasoning come omonimo; 11 nuclei A–K | ~120 (45 nell'itinerario) | sì, ed è il più esplicito dell'archivio | citazioni al mag 2026 |
+| [composizionalità transformer](argomenti/composizionalita-transformer/bibliografia.md) | aritmetica e circuiti nei Transformer | ~21, di cui 12 ★ | sì — rilevanza per il design sperimentale | — |
+| [content drift](argomenti/interpretability/bibliografia-drift-mechint.md) | CoT drift + mech interp su EDOS/HateXplain | ~55 in 10 §§ | no, ma ha uno schema di verifica (✔/⚠) | — |
+| [scoperta di astrazioni](argomenti/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) | library learning, skill discovery, compressione | ~50 | implicito (prior art di un progetto chiuso) | **ago 2026, invecchia in fretta** |
+| [interpretability](argomenti/interpretability/bibliografia.md) | XAI e mech interp, livelli 0–9 | ~35 | **no** | — |
+| [mappa dei libri](argomenti/compressione-astrazione/mappa-dei-libri.md) | monografie | ~15 | sì — cosa copre quale terzo del problema | lug 2026 |
+| [SemEval 2027](lavori/2026-09_semeval-2027/reading-list.md) | valutazione di task candidate (due nella lista, sette nella [valutazione del 3 set](lavori/2026-09_semeval-2027/valutazione-task.md)) | ~10 | sì — formale/strutturato vs vago | training data 8 set 2026 |
+| [AAS — paper della lezione *Intelligent Agents*](formazione/autonomous-adaptive-systems/pdf/README.md) | i riferimenti di un corso di RL e agenti | 9 + 1 non scaricabile | sì — cosa è citato nelle slide, non cosa è rilevante | ricostruita dalle slide, 3 set 2026 |
 
 La nona lista entra con **intersezione zero**: nessuno dei nove paper del corso compare in nessuna delle altre otto bibliografie, e nessuna delle altre otto cita Turing, AlphaGo, DeepStack o RLHF. Non è una svista dell'una o delle altre — è il segno che l'archivio ha costruito i propri fili *attorno* al canone RL/agenti invece che dentro, e che quel canone entra qui per la prima volta. Per questo la lista non tocca né la §2 né la §3: non ha ancora niente con cui incrociarsi.
 
@@ -137,7 +137,7 @@ Teoria della complessità, espressività architetturale, formato del training, e
 
 ## 4. Le tensioni
 
-**1. Due politiche di inclusione opposte.** Reasoning dichiara: «Le rassegne non entrano mai, salvo come punto di ingresso a un'area nuova, e in quel caso vengono sostituite dai primari appena letti». [interpretability/papers.md](topics/interpretability/papers.md) è per metà rassegne (livelli 7–8, otto voci) e non ha criterio di inclusione. Non è un errore in sé — sono documenti con funzioni diverse, uno è una bibliografia di ricerca e l'altro una mappa didattica del campo — ma la differenza non è scritta da nessuna parte, e chi apre il secondo dopo il primo non ha modo di saperlo.
+**1. Due politiche di inclusione opposte.** Reasoning dichiara: «Le rassegne non entrano mai, salvo come punto di ingresso a un'area nuova, e in quel caso vengono sostituite dai primari appena letti». [interpretability/papers.md](argomenti/interpretability/bibliografia.md) è per metà rassegne (livelli 7–8, otto voci) e non ha criterio di inclusione. Non è un errore in sé — sono documenti con funzioni diverse, uno è una bibliografia di ricerca e l'altro una mappa didattica del campo — ma la differenza non è scritta da nessuna parte, e chi apre il secondo dopo il primo non ha modo di saperlo.
 
 **2. Le sparse autoencoder.** Livello 6 di un percorso di lettura in un dossier; «il ramo più affascinante e il più probabile candidato a farti perdere due mesi senza risultato» nell'altro. Il secondo giudizio è operativo e più recente: dovrebbe vincere, e non è visibile a chi legge solo il primo.
 
@@ -151,12 +151,12 @@ Teoria della complessità, espressività architetturale, formato del training, e
 
 Cose concrete emerse dalla lettura incrociata.
 
-- **I due dossier più grandi non sono nel repo né nel README.** `topics/reasoning/` e `topics/content-drift/` risultano **untracked** in git. Sono ~1050 righe e la bibliografia più curata dell'archivio.
+- **I due dossier più grandi sono i meno visibili.** `argomenti/reasoning/bibliografia-ragionata.md` e `argomenti/interpretability/bibliografia-drift-mechint.md` sono ~1050 righe e la bibliografia più curata dell'archivio, ma nessuna delle due ha una riga propria nel README di radice.
 - **Lo stesso paper è registrato con tre titoli diversi.** `arXiv:2402.02619` compare come *Arithmetic in Transformers Explained* (composizionalità), *Understanding Addition and Subtraction in Transformers* (interpretability/aritmetica-mech-int), *Understanding Addition in Transformers* (reasoning I.3) — e con due liste autori diverse (Quirke, Neo & Barez vs Quirke & Barez). Da risolvere una volta sola, prima che finisca in un paper.
-- **[interpretability/papers.md](topics/interpretability/papers.md) porta residui di conversazione.** La riga 124 comincia con «Ottima osservazione — nella lista mancava il "perché" fondamentale», e il livello 0 è appiccicato in coda invece che in testa; l'indice finale annuncia «ex 28–30» ma le voci sono 28–29. È l'unico documento dell'archivio che non è stato riscritto dopo essere stato generato.
-- **[topics/reasoning-neurosimbolico/neurosimbolico-nlp.md](topics/reasoning-neurosimbolico/neurosimbolico-nlp.md)** è appunti grezzi (abstract in inglese incollati) e copre la stessa area del nucleo K di reasoning, che è più curato. Candidato a fusione.
+- **[interpretability/bibliografia.md](argomenti/interpretability/bibliografia.md) porta residui di conversazione.** La riga 124 comincia con «Ottima osservazione — nella lista mancava il "perché" fondamentale», e il livello 0 è appiccicato in coda invece che in testa; l'indice finale annuncia «ex 28–30» ma le voci sono 28–29. È l'unico documento dell'archivio che non è stato riscritto dopo essere stato generato.
+- **[reasoning/neurosimbolico-nlp.md](argomenti/reasoning/neurosimbolico-nlp.md)** è appunti grezzi (abstract in inglese incollati) e copre la stessa area del nucleo K di reasoning, che è più curato. Candidato a fusione.
 - **Nessuna convenzione di verifica condivisa.** `[V]`/`[M]`, `✔`/`⚠`, oppure niente. Vale la pena sceglierne una: è l'unica annotazione che serve davvero sei mesi dopo, quando una citazione va in un paper.
-- **Le date di validità sono dichiarate solo dove il campo si muove in fretta** (scoperta di astrazioni, ago 2026) — ed è la scelta giusta. Andrebbe estesa a content-drift, che è tutto su letteratura 2023–2026.
+- **Le date di validità sono dichiarate solo dove il campo si muove in fretta** (scoperta di astrazioni, ago 2026) — ed è la scelta giusta. Andrebbe estesa alla bibliografia drift/mech-int, che è tutta su letteratura 2023–2026.
 
 ---
 
@@ -177,7 +177,7 @@ Non un percorso per un filo: le dieci voci che pagano di più **attraverso** i f
 | 9 | **Zeng, P., Griffiths, T. L. & Lake, B. M. (2026).** *Nothing from Something: Can a Language Model Discover 0?*. CCN — *composizionalità* + *intensione* | La domanda filosofica trasformata in esperimento controllato. La giuntura dell'archivio |
 | 10 | **Cariani, P. (1998).** *Epistemic Autonomy through Adaptive Sensing*. IEEE ISIC — *intensione* §9 | Venti pagine. Emergenza combinatoria vs creativa: la formulazione operativa della domanda che tiene insieme tre fili su sei |
 
-**Se invece un solo libro:** **MacKay, D. J. C. (2003).** *Information Theory, Inference, and Learning Algorithms*. Cambridge University Press — fatto con gli esercizi, non sfogliato. È il verdetto della [mappa dei libri](topics/compressione-astrazione/mappa-dei-libri.md), ed è l'unico titolo dell'archivio di cui si dica che *cambia gli strumenti* invece di aggiungere riferimenti.
+**Se invece un solo libro:** **MacKay, D. J. C. (2003).** *Information Theory, Inference, and Learning Algorithms*. Cambridge University Press — fatto con gli esercizi, non sfogliato. È il verdetto della [mappa dei libri](argomenti/compressione-astrazione/mappa-dei-libri.md), ed è l'unico titolo dell'archivio di cui si dica che *cambia gli strumenti* invece di aggiungere riferimenti.
 
 ---
 

@@ -15,7 +15,7 @@ Dà il **dominio** su cui la lezione *Categorization* del CCM è solo un'ora. I 
 
 La struttura della prima metà è la sequenza classica delle teorie dei concetti — *classical view → prototipi → esemplari → knowledge/theory view* — cioè esattamente da dove vengono i modelli computazionali di categorizzazione (ALCOVE, il rational model di Anderson, l'approccio bayesiano di Tenenbaum), tutti in programma coi paper primari.
 
-L'ultima settimana — **conceptual combination and exemplar generation** — è lo stesso tema di [Frankland & Greene](../topics/composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md#6-fondamenti-cognitivi-e-neuroscientifici-della-composizionalità), visto però dal lato psicologico-comportamentale invece che neuroscientifico. Aggancio diretto al filo [composizionalità](../topics/composizionalita_transformer/).
+L'ultima settimana — **conceptual combination and exemplar generation** — è lo stesso tema di [Frankland & Greene](../argomenti/composizionalita-transformer/bibliografia.md#6-fondamenti-cognitivi-e-neuroscientifici-della-composizionalità), visto però dal lato psicologico-comportamentale invece che neuroscientifico. Aggancio diretto al filo [composizionalità](../argomenti/composizionalita-transformer/).
 
 ---
 
@@ -23,10 +23,10 @@ L'ultima settimana — **conceptual combination and exemplar generation** — è
 
 | Blocco del corso | Filo nel repo | Aggancio |
 |---|---|---|
-| Conceptual combination & exemplar generation (Murphy 1988, Ward 1994) | [composizionalita_transformer](../topics/composizionalita_transformer/) | come si combinano i concetti per formarne di nuovi — lato psicologico di Frankland & Greene |
-| Concepts as theories / knowledge view (Murphy & Medin, Barsalou) | [Intensione / autonomia](../topics/intensione-autonomia/bibliografia.md) | il significato come teoria, non come lista di feature |
-| Modelli bayesiani di apprendimento concettuale (Xu & Tenenbaum, Goodman et al., Kemp & Tenenbaum) | [Compressione → astrazione](../topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) | rule-based concept learning, induzione come inferenza |
-| Category-based induction (Osherson et al., Kemp & Tenenbaum 2009) | [Reasoning neuro-simbolico](../topics/reasoning-neurosimbolico/neurosimbolico-nlp.md) | inferenza strutturata su categorie |
+| Conceptual combination & exemplar generation (Murphy 1988, Ward 1994) | [composizionalità nei Transformer](../argomenti/composizionalita-transformer/) | come si combinano i concetti per formarne di nuovi — lato psicologico di Frankland & Greene |
+| Concepts as theories / knowledge view (Murphy & Medin, Barsalou) | [Intensione / autonomia](../argomenti/intensione-autonomia/bibliografia.md) | il significato come teoria, non come lista di feature |
+| Modelli bayesiani di apprendimento concettuale (Xu & Tenenbaum, Goodman et al., Kemp & Tenenbaum) | [Compressione → astrazione](../argomenti/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) | rule-based concept learning, induzione come inferenza |
+| Category-based induction (Osherson et al., Kemp & Tenenbaum 2009) | [Reasoning neuro-simbolico](../argomenti/reasoning/neurosimbolico-nlp.md) | inferenza strutturata su categorie |
 | Modelli computazionali (ALCOVE, Anderson rational, AlexNet come contrappunto) | [CCM — lezione Categorization](nyu-ccm-lake-gureckis.md) | espansione del blocco categorizzazione del CCM |
 
 ---
@@ -79,6 +79,6 @@ Ottima **mappa concettuale del dominio "concetti e categorie"** e complemento na
 **Limiti**: non computazionale in senso stretto (discute i modelli, non li implementa — il codice è nel CCM); risorsa pubblica solo per slide + reading list (libro e paper dietro Brightspace/rete NYU); taglio sui fondamenti, non sugli LLM (l'unico cenno moderno è AlexNet come contrappunto).
 
 **Azioni possibili**
-- [ ] Scaricare le slide di *conceptual combination* e *knowledge view* → alimentano il filo [composizionalità](../topics/composizionalita_transformer/) e [intensione/autonomia](../topics/intensione-autonomia/bibliografia.md)
-- [ ] Leggere Murphy (1988) e Ward (1994) come lato psicologico-comportamentale di [Frankland & Greene](../topics/composizionalita_transformer/BIBLIOGRAFIA_composizionalita_transformer.md#6-fondamenti-cognitivi-e-neuroscientifici-della-composizionalità)
+- [ ] Scaricare le slide di *conceptual combination* e *knowledge view* → alimentano il filo [composizionalità](../argomenti/composizionalita-transformer/) e [intensione/autonomia](../argomenti/intensione-autonomia/bibliografia.md)
+- [ ] Leggere Murphy (1988) e Ward (1994) come lato psicologico-comportamentale di [Frankland & Greene](../argomenti/composizionalita-transformer/bibliografia.md#6-fondamenti-cognitivi-e-neuroscientifici-della-composizionalità)
 - [ ] Valutare *The Big Book of Concepts* (Murphy) come testo di riferimento del dominio

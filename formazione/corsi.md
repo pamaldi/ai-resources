@@ -52,7 +52,7 @@ Le due valutazioni davano verdetti opposti su **Universal Semantics**. Non per u
 - Ciroku, De Giorgis, Gangemi, Martinez-Pandiani, Presutti — *Automated multimodal sensemaking*, CHB 2024
 - Gangemi & Presutti — *Formal Representation and Extraction of Perspectives*, 2022
 - Gangemi — *Closing the Loop between Knowledge Patterns in Cognition and the Semantic Web*, Semantic Web 2020
-- Lakoff & Narayanan — *The Neural Mind*, 2025 → [discussione critica](../topics/compressione-astrazione/mappa-dei-libri.md#4-lakoff--narayanan-the-neural-mind-2025)
+- Lakoff & Narayanan — *The Neural Mind*, 2025 → [discussione critica](../argomenti/compressione-astrazione/mappa-dei-libri.md#4-lakoff--narayanan-the-neural-mind-2025)
 
 **Il dettaglio che conta**: l'esame è un **progetto concordato col docente** su tema a scelta, più discussione. Uso dell'IA esplicitamente ammesso, con sezione di analisi critica obbligatoria.
 
@@ -74,7 +74,7 @@ Le due valutazioni davano verdetti opposti su **Universal Semantics**. Non per u
 
 **Gli obiettivi formativi** (parafrasati dal testo ufficiale): al termine lo studente conosce e sa applicare **metodi di astrazione** per interpretare qualunque segnale proveniente da un ambiente fisico, sociale o cognitivo, sia **induttivamente (pattern discovery)** sia deduttivamente (pattern finding), sfruttando risultati da filosofia, scienze cognitive, semiotica e informatica.
 
-> È la domanda del filo [compressione → astrazione](../topics/compressione-astrazione/) scritta come syllabus. Corrispondenza più letterale di così non se ne trovano.
+> È la domanda del filo [compressione → astrazione](../argomenti/compressione-astrazione/) scritta come syllabus. Corrispondenza più letterale di così non se ne trovano.
 
 **L'argomento della finestra temporale**: persona con quella traiettoria, arrivata in Italia da otto mesi, che sta **costruendo il corso adesso**. Fra due anni sarà consolidato e pieno di tesisti. Il programma mancante non è un difetto: è il motivo per scrivergli.
 
@@ -112,7 +112,7 @@ Le due valutazioni davano verdetti opposti su **Universal Semantics**. Non per u
 
 **Esame**: orale, media dei due moduli. I frequentanti presentano un testo in aula (poi escluso dall'orale). **IA vietata in sede di verifica** — l'opposto della policy di Gangemi.
 
-**Perché**: è l'unico corso pensato come introduzione da zero, non come approfondimento. Frege, Kripke e Wittgenstein sono i nomi che tornano di continuo parlando di semantica e riferimento negli LLM — e sono anche §1 della [bibliografia intensione/autonomia](../topics/intensione-autonomia/bibliografia.md).
+**Perché**: è l'unico corso pensato come introduzione da zero, non come approfondimento. Frege, Kripke e Wittgenstein sono i nomi che tornano di continuo parlando di semantica e riferimento negli LLM — e sono anche §1 della [bibliografia intensione/autonomia](../argomenti/intensione-autonomia/bibliografia.md).
 
 **Contro**: 9 CFU; sovrapposizione di calendario con Gangemi; niente IA all'esame; presentazioni in aula → richiede presenza reale.
 
@@ -277,7 +277,7 @@ Marmo resta il jolly a logistica comoda (non frequentante + paper) da inserire q
 - [ ] Cercare la scheda 2026/27 di *Cognitive Semantics for AI* — l'edizione 2025/26 è chiusa
 - [ ] Confermare che CSAI 2026/27 sia ancora tenuto da Gangemi
 - [ ] Coursera in modalità chirurgica: moduli 4, 7.3, 7.1, 3.2 — un pomeriggio, prima della mail
-- [ ] Scaricare MacKay (PDF gratuito) → vedi [mappa dei libri](../topics/compressione-astrazione/mappa-dei-libri.md)
+- [ ] Scaricare MacKay (PDF gratuito) → vedi [mappa dei libri](../argomenti/compressione-astrazione/mappa-dei-libri.md)
 
 ---
 

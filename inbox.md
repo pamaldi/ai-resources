@@ -1,19 +1,19 @@
 # Inbox — link grezzi
 
 Raccolta non triata. Quando una voce diventa rilevante per un filo di ricerca, va spostata nel dossier
-corrispondente sotto `topics/` (con una riga di contesto), non lasciata qui.
+corrispondente sotto `argomenti/` (con una riga di contesto), non lasciata qui.
 
-**Triage del 18 agosto 2026** — sono già stati smistati: workshop e reasoning → [reasoning-neurosimbolico](topics/reasoning-neurosimbolico/llm-reasoning.md) · XAI → [interpretability](topics/interpretability/papers.md) · note e RL → [fondamenti-cs](topics/fondamenti-cs/risorse-cs.md) · corsi universitari → [formazione](formazione/corsi.md).
+**Triage del 18 agosto 2026** — sono già stati smistati: workshop e reasoning → [reasoning](argomenti/reasoning/llm-reasoning.md) · XAI → [interpretability](argomenti/interpretability/bibliografia.md) · note e RL → [fondamenti](argomenti/fondamenti/risorse-cs.md) · corsi universitari → [formazione](formazione/corsi.md).
 
 ---
 
 ## Competizioni — NLP
 
-Venue da tenere d'occhio. La valutazione dei task 2027 è in [projects/semeval-2027](projects/semeval-2027/reading-list.md).
+Venue da tenere d'occhio. La valutazione dei task 2027 è in [lavori/semeval-2027](lavori/2026-09_semeval-2027/reading-list.md).
 
 - [SemEval](https://semeval.github.io/SemEval2025/tasks)
 - [CLEF](https://clef2025.clef-initiative.eu/)
-- [NumEval](https://sites.google.com/view/numeval/paper-instructions?authuser=0) — [overview paper SemEval 2024](library/papers/NumEvalOverviewSemEval2024.pdf)
+- [NumEval](https://sites.google.com/view/numeval/paper-instructions?authuser=0) — [overview paper SemEval 2024](lavori/2026-09_semeval-2027/pdf/Chen-Huang-Huang-etal_SemEval-2024-Task-7-Numeral-Aware-Language-Understanding-and-Generation.pdf)
 - [Jigsaw — Agile Community Rules Classification](https://www.kaggle.com/competitions/jigsaw-agile-community-rules) (Kaggle)
 - [MAP — Charting Student Math Misunderstandings](https://www.kaggle.com/competitions/map-charting-student-math-misunderstandings/data) (Kaggle)
 

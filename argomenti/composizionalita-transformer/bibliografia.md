@@ -106,7 +106,7 @@ https://proceedings.mlr.press/v80/lake18a.html
 
 Zeng, P., Griffiths, T. L., & Lake, B. M. (2026). **Nothing from Something: Can a Language Model Discover 0?**. *Proceedings of the 9th Conference on Cognitive Computational Neuroscience (CCN 2026)*.
 
-https://arxiv.org/abs/2606.17289 · [PDF locale](papers/Zeng-Griffiths-Lake-Discover-Zero-CCN26.pdf)
+https://arxiv.org/abs/2606.17289 · [PDF locale](pdf/Zeng-Griffiths-Lake_Discover-Zero-CCN26.pdf)
 
 **Rilevanza:** paper-ponte tra questo dossier e [intensione/autonomia](../intensione-autonomia/bibliografia.md#4-il-problema-radicale-dellacquisizione-dei-concetti). Usa lo stesso oggetto sperimentale dell'intera bibliografia — GPT-2 (124M) e un piccolo Transformer addestrati su addizione/sottrazione a una cifra, tokenizzazione per-cifra, analisi delle rappresentazioni delle cifre (similarità coseno degli embedding) e ruolo del *carry* — ma per una domanda più radicale della systematic recombination: **un modello addestrato in un mondo senza lo zero può postularlo quando gli serve?** Cioè può introdurre un primitivo nuovo ($p_{n+1}$), non solo ricombinare quelli dati.
 
@@ -224,11 +224,11 @@ https://transformer-circuits.pub/2025/attribution-graphs/methods.html
 
 Frankland, S. M., & Greene, J. D. (2020). **Concepts and Compositionality: In Search of the Brain's Language of Thought**. *Annual Review of Psychology, 71*, 273–303.
 
-https://doi.org/10.1146/annurev-psych-122216-011829 · [PDF locale](papers/Frankland-Greene-Concepts-Compositionality-LoT-AnnRevPsy20.pdf)
+https://doi.org/10.1146/annurev-psych-122216-011829 · [PDF locale](pdf/Frankland-Greene_Concepts-Compositionality-LoT-AnnRevPsy20.pdf)
 
 **Rilevanza:** review di riferimento sul *grounding* cognitivo e neuroscientifico della composizionalità — il "perché" che sta a monte di tutto il progetto sperimentale. Inquadra la questione con l'ipotesi del **language of thought** di Fodor & Pylyshyn (la stessa systematicity che motiva [Lake & Baroni](#-lake--baroni--scan-e-systematicity)) e la mappa su meccanismi cerebrali concreti: combinazione concettuale nel *default mode network*, codici map-like/grid-cell per il contenuto amodale, e soprattutto la rappresentazione di **relazioni strutturate esplicite** ("who did what to whom") tramite *role binding* nel solco temporale superiore medio-sinistro, con rappresentazioni ruolo-invarianti riusate tra frasi.
 
-È il punto in cui la domanda diventa la stessa del progetto ma su un altro substrato: **come si implementa fisicamente il binding tra concetto e ruolo, e come si separano memoria e computazione (pointer)** — esattamente ciò che la parte meccanicistica cerca nel residual stream e nei circuiti di routing. Fornisce il ponte tra il filo [language of thought / program induction](../../compressione-astrazione/scoperta-di-astrazioni-letteratura.md) (e il corso [NYU CCM](../../../formazione/nyu-ccm-lake-gureckis.md)) e l'interpretabilità dei Transformer: non è un riferimento per il *design* dell'esperimento, ma per la sua *motivazione teorica* e per il vocabolario (binding, ruoli, pointer, riuso strutturato) con cui interpretarne i risultati.
+È il punto in cui la domanda diventa la stessa del progetto ma su un altro substrato: **come si implementa fisicamente il binding tra concetto e ruolo, e come si separano memoria e computazione (pointer)** — esattamente ciò che la parte meccanicistica cerca nel residual stream e nei circuiti di routing. Fornisce il ponte tra il filo [language of thought / program induction](../compressione-astrazione/scoperta-di-astrazioni-letteratura.md) (e il corso [NYU CCM](../../formazione/nyu-ccm-lake-gureckis.md)) e l'interpretabilità dei Transformer: non è un riferimento per il *design* dell'esperimento, ma per la sua *motivazione teorica* e per il vocabolario (binding, ruoli, pointer, riuso strutturato) con cui interpretarne i risultati.
 
 ---
 
