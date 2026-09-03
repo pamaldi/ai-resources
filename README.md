@@ -11,7 +11,7 @@ library/      PDF (libri, paper, materiali di corso)
 conferenze.md conference e venue da tenere d'occhio
 inbox.md      link grezzi non ancora triati
 
-bibliografia-trasversale.md   lettura incrociata delle otto bibliografie
+bibliografia-trasversale.md   lettura incrociata delle nove bibliografie
 ```
 
 ---
@@ -20,7 +20,7 @@ bibliografia-trasversale.md   lettura incrociata delle otto bibliografie
 
 | Progetto | Scadenza | Stato |
 |---|---|---|
-| [SemEval 2027 — CoCo-NLI vs AgentRisk](projects/semeval-2027/) | sample data dal 1 set 2026 | valutazione candidati |
+| [SemEval 2027 — DiCo-NLI, VAKRA, AgentRisk](projects/semeval-2027/) | training data 8 set 2026 · valutazione 10–31 gen 2027 | [sette task valutate](projects/semeval-2027/semeval2027-valutazione-task.md): Task 2 primaria, Task 11 cap. 4 opportunistica |
 
 ---
 
@@ -67,7 +67,7 @@ Dove finisce il riuso di primitive già apprese e dove inizia la costruzione di 
 
 ### 6. Fondamenti
 - [P e NP — riassunto](topics/fondamenti-cs/riassunto-p-np.md)
-- [MDP, V e Q](formazione/stanford-ai-mdp.md)
+- [MDP, V e Q](formazione/stanford-ai-mdp.md) — e il suo seguito: [Autonomous and Adaptive Systems](formazione/autonomous-adaptive-systems/) (UniBO, Musolesi), la sequenza RL completa da bandit a policy gradient
 - [Dal campionamento dei token al watermarking](topics/llm/watermarking-llm-sampling.md) — softmax, temperatura, top-p, seed, e il tournament sampling di SynthID
 - [Risorse CS](topics/fondamenti-cs/risorse-cs.md)
 
@@ -78,6 +78,7 @@ Dove finisce il riuso di primitive già apprese e dove inizia la costruzione di 
 - [Corsi singoli e MOOC](formazione/corsi.md) — 8 corsi tra UniBO e UniFi, costi, calendari, vincoli di iscrizione, azioni
 - [Computational Cognitive Modeling — NYU (Lake & Gureckis)](formazione/nyu-ccm-lake-gureckis.md) — corso pubblico, reading list canonica e mappatura ai fili; aggancio forte a composizionalità e program induction
 - [Categories and Concepts — NYU (Lake)](formazione/nyu-categories-concepts-lake.md) — seminario sulla psicologia dei concetti; il dominio (contenuto) di cui il CCM dà i metodi, chiude sulla conceptual combination
+- [Autonomous and Adaptive Systems — UniBO (Musolesi)](formazione/autonomous-adaptive-systems/) — slide pubbliche di tutto il corso; l'ossatura RL che manca all'archivio, più [9 paper della lezione *Intelligent Agents*](formazione/autonomous-adaptive-systems/papers/)
 - [Appunti Stanford — MDP](formazione/stanford-ai-mdp.md)
 
 **Prossime azioni** (dettaglio in [corsi.md §7](formazione/corsi.md)): mail a Garagnani · verifica che la carriera Master AI risulti chiusa · contatto con la Segreteria di Semiotica. Le ultime due maturano da sole, conviene avviarle subito.
@@ -92,9 +93,10 @@ Dove finisce il riuso di primitive già apprese e dove inizia la costruzione di 
 - [x] ~~Progetto NEmo 2026: chiuso il 18 agosto 2026.~~ Le note bibliografiche sopravvissute sono in [scoperta-di-astrazioni-letteratura.md](topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md); il resto è recuperabile dalla storia di git
 - [ ] Ruotare la password su nemo.semantic.review — è ancora nella storia di git
 - [ ] Sostituire i redirect `lnkd.in` in [inbox.md](inbox.md) con gli URL reali
-- [ ] Committare `topics/reasoning/` e `topics/content-drift/`: ~1050 righe ancora untracked, tra cui la bibliografia più curata dell'archivio
+- [x] ~~Committare `topics/reasoning/` e `topics/content-drift/`~~
 - [ ] Riscrivere [interpretability/papers.md](topics/interpretability/papers.md) — porta residui di conversazione (riga 124), il livello 0 è in coda invece che in testa, l'indice annuncia voci che non esistono
 - [ ] Fondere [neurosimbolico-nlp.md](topics/reasoning-neurosimbolico/neurosimbolico-nlp.md) (appunti grezzi) nel nucleo K della [bibliografia reasoning](topics/reasoning/reasoning-bibliografia-ragionata.md), che copre la stessa area meglio
+- [ ] Portare nella [bibliografia intensione/autonomia](topics/intensione-autonomia/bibliografia.md) la tensione fra le due definizioni di autonomia — quella ingegneristica di Stuart Russell e Peter Norvig (indipendenza dalla conoscenza a priori) e quella epistemica di Peter Cariani (costruirsi nuovi sensori). Emersa confrontando [AAS](formazione/autonomous-adaptive-systems/) con il filo 2, non è scritta da nessuna parte
 - [ ] Scegliere **una** convenzione di verifica delle citazioni: oggi convivono `[V]`/`[M]`, `✔`/`⚠` e nessuna. È l'annotazione che serve davvero sei mesi dopo
 
 ---

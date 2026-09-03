@@ -4,7 +4,9 @@ Riferimento: valutazione candidati per SemEval 2027, in continuità con la pipel
 
 Approfondimento operativo: [Task 2 — DiCo-NLI: repository, organizzatori e paper](task-2-dico-nli-organizzatori.md).
 
-Criterio guida: formale/strutturato vs vago nelle specifiche di task, da verificare sui sample data reali (dal 1° settembre 2026) e non solo sulle descrizioni.
+> **Superata in parte.** Questa lista confronta due task. La [valutazione del 3 settembre 2026](semeval2027-valutazione-task.md) ne copre **sette** con lo stesso criterio, corregge il calendario e ribalta il quadro: Task 2 (DiCo-NLI) resta primaria, entra Task 11 (VAKRA cap. 4) come seconda opzione opportunistica, AgentRisk resta aperta. Quel documento è ora il riferimento del progetto; questo resta per il dettaglio bibliografico su DiCo-NLI e AgentRisk.
+
+Criterio guida: formale/strutturato vs vago nelle specifiche di task, da verificare sui dati reali (sample data dall'8 agosto 2026, training data dall'8 settembre 2026) e non solo sulle descrizioni.
 
 ---
 

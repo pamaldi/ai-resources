@@ -1,14 +1,14 @@
 # Bibliografia trasversale
 
-*Sintesi delle otto bibliografie dell'archivio. Nessuna di esse è stata modificata: questo documento è una lettura sopra di loro, non un rimpiazzo.*
+*Sintesi delle nove bibliografie dell'archivio. Nessuna di esse è stata modificata: questo documento è una lettura sopra di loro, non un rimpiazzo.*
 
-**Compilato:** 31 agosto 2026.
+**Compilato:** 31 agosto 2026. **Ultima revisione:** 3 settembre 2026 (§1: ingresso della nona lista, correzione delle date SemEval).
 
 ---
 
 ## 0. Cosa è questo documento, e con quale criterio è filtrato
 
-L'archivio contiene otto liste bibliografiche costruite in momenti diversi, per progetti diversi, con criteri di inclusione diversi (e in tre casi non dichiarati). Sommate fanno alcune centinaia di voci. Nessuno le ha mai lette una accanto all'altra.
+L'archivio contiene nove liste bibliografiche costruite in momenti diversi, per progetti diversi, con criteri di inclusione diversi (e in tre casi non dichiarati). Sommate fanno alcune centinaia di voci. Nessuno le ha mai lette una accanto all'altra.
 
 Farlo produce tre cose che non esistono altrove, e che sono le uniche ragioni per cui questo file merita di stare nel repo:
 
@@ -36,7 +36,10 @@ Non entra una voce solo perché è buona. Le bibliografie originali restano il p
 | [scoperta di astrazioni](topics/compressione-astrazione/scoperta-di-astrazioni-letteratura.md) | library learning, skill discovery, compressione | ~50 | implicito (prior art di un progetto chiuso) | **ago 2026, invecchia in fretta** |
 | [interpretability](topics/interpretability/papers.md) | XAI e mech interp, livelli 0–9 | ~35 | **no** | — |
 | [mappa dei libri](topics/compressione-astrazione/mappa-dei-libri.md) | monografie | ~15 | sì — cosa copre quale terzo del problema | lug 2026 |
-| [SemEval 2027](projects/semeval-2027/reading-list.md) | valutazione di due task candidate | ~10 | sì — formale/strutturato vs vago | sample data dal 1 set 2026 |
+| [SemEval 2027](projects/semeval-2027/reading-list.md) | valutazione di task candidate (due nella lista, sette nella [valutazione del 3 set](projects/semeval-2027/semeval2027-valutazione-task.md)) | ~10 | sì — formale/strutturato vs vago | training data 8 set 2026 |
+| [AAS — paper della lezione *Intelligent Agents*](formazione/autonomous-adaptive-systems/papers/README.md) | i riferimenti di un corso di RL e agenti | 9 + 1 non scaricabile | sì — cosa è citato nelle slide, non cosa è rilevante | ricostruita dalle slide, 3 set 2026 |
+
+La nona lista entra con **intersezione zero**: nessuno dei nove paper del corso compare in nessuna delle altre otto bibliografie, e nessuna delle altre otto cita Turing, AlphaGo, DeepStack o RLHF. Non è una svista dell'una o delle altre — è il segno che l'archivio ha costruito i propri fili *attorno* al canone RL/agenti invece che dentro, e che quel canone entra qui per la prima volta. Per questo la lista non tocca né la §2 né la §3: non ha ancora niente con cui incrociarsi.
 
 Tre schemi di priorità incompatibili convivono: **★** (composizionalità, intensione), **portante vs stato dell'arte** (reasoning), **prioritarie / tecniche / da consultare** (scoperta di astrazioni), più i **livelli 0–9** di interpretability, che sono profondità e non priorità. E due schemi di verifica: `[V]`/`[M]` in intensione-autonomia, `✔`/`⚠` in content-drift. Il resto non ne ha.
 

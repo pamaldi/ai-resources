@@ -283,8 +283,9 @@ Marmo resta il jolly a logistica comoda (non frequentante + paper) da inserire q
 
 ## Altre risorse di formazione
 
-Raccolte durante il triage dei link, non ancora valutate.
+Raccolte durante il triage dei link, non ancora valutate. Fa eccezione la prima voce, che ha una scheda propria.
 
+- **[Autonomous and Adaptive Systems — UniBO, Musolesi](autonomous-adaptive-systems/)** (92858 · 8 CFU · ING-INF/05 · LM Artificial Intelligence cod. 9063 e LM Computer Engineering cod. 5826 · 27 feb – 5 giu). Non è nel confronto del §1 perché **le slide sono tutte pubbliche**: si può usare senza iscriversi. Come corso singolo costerebbe ~377 €. Stesso vincolo di calendario degli altri corsi di primavera. Stesso corso di laurea del corso di Starita e Di Pellegrino — ma la scheda di quello riporta **cod. 6700** e questa **cod. 9063**: da verificare quale sia il codice corrente della LM in Artificial Intelligence
 - [ICNF — training in neuroinformatica](https://training.incf.org/)
 - [Deep Dive into Large Language Models — Princeton COS597R](https://princeton-cos597r.github.io/)
 - [TU Wien — Informatics, corsi](https://informatics.tuwien.ac.at/orgs/e192-03#courses)
