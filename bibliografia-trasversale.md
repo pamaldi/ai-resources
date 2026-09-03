@@ -2,7 +2,7 @@
 
 *Sintesi delle nove bibliografie dell'archivio. Nessuna di esse è stata modificata: questo documento è una lettura sopra di loro, non un rimpiazzo.*
 
-**Compilato:** 31 agosto 2026. **Ultima revisione:** 3 settembre 2026 (§1: ingresso della nona lista, correzione delle date SemEval).
+**Compilato:** 31 agosto 2026. **Ultima revisione:** 3 settembre 2026 — §1: ingresso della nona lista e correzione delle date SemEval; percorsi aggiornati dopo la ristrutturazione dell'archivio (`topics/` → `argomenti/`, `projects/` → `lavori/`, i PDF accanto alle note che li citano).
 
 ---
 
